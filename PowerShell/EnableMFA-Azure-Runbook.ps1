@@ -1,4 +1,6 @@
-﻿$azureCredential = Get-AutomationPSCredential -Name "AzMonkey"
+﻿#The code below adds users who are members of Azure subscriptions to a specific group. You can then enable Multi-Factor Authentication for the members of this group
+
+$azureCredential = Get-AutomationPSCredential -Name "AzMonkey"
 
 if($azureCredential -ne $null)
 {
