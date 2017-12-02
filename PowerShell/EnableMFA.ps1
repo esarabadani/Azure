@@ -1,4 +1,4 @@
-﻿#This script will enable Multi-Factor Autentication for all your Azure Users... This script also requires users to use MFA when using Office365
+﻿#This script will enable Multi-Factor Autentication for all your Azure Users... This script also requires users to use MFA when using Office365 
 
 Connect-MsolService
 Login-AzureRmAccount

@@ -1,5 +1,5 @@
 ﻿Login-AzureRmAccount -Credential $Credential
-Connect-MsolService -Credential $Credential 
+Connect-MsolService -Credential $Credential  
 
 $subs = Get-AzureRmSubscription
 
