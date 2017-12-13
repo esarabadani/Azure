@@ -16,7 +16,7 @@ $numberofnodes = 3 #This is the number of instances in your scale set
 
 #Specify VMSS Specific Details
 $adminUsername = 'esmaeil';
-$adminPassword = "P@ssw0rd12345";
+$adminPassword = "Put your password here";
 
 $PublisherName = 'MicrosoftWindowsServer'
 $Offer         = 'WindowsServer'
